@@ -1,5 +1,7 @@
 import React, { Component } from 'react'; 
 import './App.css';
+import MainPage from './pages/mainPage/MainPage';
+import Contact from './pages/mainPage/Contact';
 
 class App extends Component {
   state = {
@@ -7,8 +9,15 @@ class App extends Component {
   }
   render(){
     return(
-      <div >hi</div>
-      div
+      <BrowserRouter>
+        <>
+          <Switch>
+            <Route exact path="/" component={MainPage} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </>
+      </BrowserRouter>
+      
       
     )
   }
