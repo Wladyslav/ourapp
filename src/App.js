@@ -1,7 +1,9 @@
 import React, { Component } from 'react'; 
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import './App.css';
+import Header from './layout/header/Header'
 import MainPage from './pages/mainPage/MainPage';
-import Contact from './pages/mainPage/Contact';
+import Contact from './pages/contact/Contact';
 
 class App extends Component {
   state = {
@@ -12,6 +14,7 @@ class App extends Component {
       <BrowserRouter>
         <>
           <Switch>
+            <Header/>
             <Route exact path="/" component={MainPage} />
             <Route path="/contact" component={Contact} />
           </Switch>
