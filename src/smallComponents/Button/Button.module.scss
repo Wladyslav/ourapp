@@ -1,0 +1,19 @@
+.mainBtn {
+  background-color: transparent;
+  color: white;
+  transition: 0.15s linear;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-weight: 700;
+  &.secondary {
+    background-color: #fff;
+    color: black;
+    &:hover {
+      color: white;
+    }
+  }
+  &:hover {
+    background-color: #bfa67a;
+    border: 1px solid #bfa67a;
+  }
+}
