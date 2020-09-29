@@ -1,0 +1,29 @@
+
+
+.navList{
+    display: flex;
+    align-items: center;
+    line-height: 100px;
+    
+    .navItem{
+        
+        list-style: none;
+        margin-left: 40px;
+        
+        .itemLink{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 900;
+            transition: all .3s ease-in-out;
+            &:hover{
+                color: #bfa67a ;
+            }
+        }
+        .itemLinkActive{
+            color:#bfa67a ;
+        }
+        
+    }
+}
+
