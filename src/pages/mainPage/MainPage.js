@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
+import HeroPage from "./HeroPage/HeroPage";
 
-const MainPage = () => (
-    <div>main page</div>
-);
+const MainPage = () => <HeroPage />;
 
 export default MainPage;

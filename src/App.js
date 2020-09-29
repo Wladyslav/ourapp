@@ -1,25 +1,22 @@
 import React, { Component } from "react";
-import { Route, BrowserRouter, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "./layout/header/Header";
 import MainPage from "./pages/mainPage/MainPage";
 import Contact from "./pages/contact/Contact";
 
 class App extends Component {
-  state = {
-    test: "dzialas",
-  };
+  state = {};
   render() {
     return (
-      <BrowserRouter>
-        <>
-          <Switch>
-            <Header />
-            <Route exact path="/" component={MainPage} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
-        </>
-      </BrowserRouter>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={MainPage} />
+
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </Router>
     );
   }
 }
