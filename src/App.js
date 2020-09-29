@@ -7,7 +7,7 @@ import Contact from "./pages/contact/Contact";
 
 class App extends Component {
   state = {
-    test: "dziala",
+    test: "dzialas",
   };
   render() {
     return (
