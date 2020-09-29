@@ -1,10 +1,14 @@
-.hero_image {
+.hero_page {
   width: 100vw;
   height: 100vh;
   background-color: red;
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
   background-image: url("../../../assets//imgs/hero-image.jpg");
   background-size: cover;
 }
