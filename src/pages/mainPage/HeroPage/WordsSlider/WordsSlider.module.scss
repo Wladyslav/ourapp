@@ -7,6 +7,13 @@
 
 .mainTitle {
   font-size: 60px;
+  transition: 1s linear opacity;
+  opacity: 0;
+}
+.mainTitle.animated {
+  font-size: 60px;
+  opacity: 1;
+  //   transition: 1s linear opacity;
 }
 .subTitle {
   font-size: 26px;

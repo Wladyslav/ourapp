@@ -20,9 +20,15 @@ const textContent = [
 class WordsSlider extends Component {
   state = {
     currentTextId: 0,
+    animationStart: true,
   };
 
   startCarousel = () => {
+    setInterval(() => {
+      this.setState((prevState) => ({
+        animationStart: !prevState.animationStart,
+      }));
+    }, 1500);
     this.carouselInterval = setInterval(() => {
       if (this.state.currentTextId < textContent.length - 1) {
         this.setState((prevState) => ({
@@ -44,7 +50,13 @@ class WordsSlider extends Component {
     return (
       <div className={styles.mainPage_container}>
         <div className={styles.title_container}>
-          <h1 className={styles.mainTitle}>
+          <h1
+            className={
+              this.state.animationStart
+                ? `${styles.mainTitle} ${styles.animated}`
+                : styles.mainTitle
+            }
+          >
             {textContent[this.state.currentTextId].mainTitle}
           </h1>
           <h3 className={styles.subTitle}>
