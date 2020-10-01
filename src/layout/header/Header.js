@@ -1,9 +1,17 @@
 import React from "react";
-import Navigation from "./Navigation";
-import styles from "./Header.module.scss";
+import styles from "../header/Header.module.scss";
+import Navigation from "../navigation/Navigation.js";
+import Example from "../mobileNav/Example"
+
+
 const Header = () => (
   <header className={styles.header}>
-    <Navigation />
+
+    <Example/>
+    
+    
+    
+
   </header>
 );
 
