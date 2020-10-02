@@ -2,6 +2,27 @@ import React, { Component } from "react";
 
 import styles from "./AboutSection.module.scss";
 
+const items_array = [
+  {
+    icon: "fas fa-code",
+    main_text: "MODULAR CODE",
+    sub_text:
+      "Projects are built using clean reusable code, which means projects can be scaled as the business grows.",
+  },
+  {
+    icon: "fas fa-desktop",
+    main_text: "USER EXPERIENCE",
+    sub_text:
+      "Highly polished UX/UI Design to result in a smooth interface and easy navigation, ensuring repeat visits.",
+  },
+  {
+    icon: "fas fa-database",
+    main_text: "DATA-DRIVEN",
+    sub_text:
+      "Allow your website or app to become fully dynamic and data-driven, which opens up unlimited possibilities.",
+  },
+];
+
 class AboutSection extends Component {
   render() {
     return (
@@ -31,36 +52,20 @@ class AboutSection extends Component {
             <p>DEVELOPMENT FEATURES</p>
           </div>
           <div className={styles.icon_text_container}>
-            <div className={styles.item}>
-              <i class="fas fa-code" style={{ fontSize: "46px" }}></i>
-              <div className={styles.item_text_container}>
-                <p>MODULAR CODE</p>
-                <p>
-                  Projects are built using clean reusable code, which means
-                  projects can be scaled as the business grows.
-                </p>
+            {items_array.map((item) => (
+              <div className={styles.item}>
+                <div className={styles.circle}>
+                  <i
+                    className={item.icon}
+                    style={{ fontSize: "29px", color: "#bfa67a" }}
+                  ></i>
+                </div>
+                <div className={styles.item_text_container}>
+                  <p className={styles.main_text}>{item.main_text}</p>
+                  <p className={styles.sub_text}>{item.sub_text}</p>
+                </div>
               </div>
-            </div>
-            <div className={styles.item}>
-              <i class="fas fa-code" style={{ fontSize: "46px" }}></i>
-              <div className={styles.item_text_container}>
-                <p>MODULAR CODE</p>
-                <p>
-                  Projects are built using clean reusable code, which means
-                  projects can be scaled as the business grows.
-                </p>
-              </div>
-            </div>
-            <div className={styles.item}>
-              <i class="fas fa-code" style={{ fontSize: "46px" }}></i>
-              <div className={styles.item_text_container}>
-                <p>MODULAR CODE</p>
-                <p>
-                  Projects are built using clean reusable code, which means
-                  projects can be scaled as the business grows.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
