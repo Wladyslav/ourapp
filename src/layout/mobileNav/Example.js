@@ -39,7 +39,7 @@ const Example = () => {
       ref={containerRef}
     >
       <motion.div className={styles.background} variants={sidebar} >
-      <Navigation />
+      <Navigation toggle={() => toggleOpen()} />
       <MenuToggle toggle={() => toggleOpen()} />
       </motion.div>
     </motion.nav>

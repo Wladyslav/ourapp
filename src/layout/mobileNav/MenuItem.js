@@ -24,10 +24,10 @@ const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
 const links = ["", "contact"];
 const pages = ["Strona główna", "Kontakt", "Strona","Strona","Strona",]
 
-const MenuItem = ({ i }) => {
+const MenuItem = ({ i, toggle }) => {
   const style = { border: `2px solid ${colors[i]}` };
   return (
-    <motion.li className={styles.listItem}
+    <motion.li onClick={toggle} className={styles.listItem}
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}

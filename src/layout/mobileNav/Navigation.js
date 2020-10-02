@@ -12,12 +12,15 @@ const variants = {
   }
 };
 
-const Navigation = () => (
+const Navigation = ({toggle}) => (
+    
   <motion.ul className={styles.listWrapper} variants={variants}>
+      <div>{console.log("toggle",toggle)}</div>
     {itemIds.map(i => (
-      <MenuItem i={i} key={i} />
-    ))}
+      <MenuItem  i={i} toggle key={i} />
+    ))} 
   </motion.ul>
+  
 );
 
 const itemIds = [0, 1, 2, 3, 4];
