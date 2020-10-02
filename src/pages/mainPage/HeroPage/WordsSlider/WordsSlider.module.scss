@@ -6,12 +6,12 @@
 }
 
 .mainTitle {
-  font-size: 60px;
+  font-size: 30px;
   transition: 1s linear opacity;
   opacity: 0;
 }
 .mainTitle.animated {
-  font-size: 60px;
+  font-size: 30px;
   opacity: 1;
   //   transition: 1s linear opacity;
 }

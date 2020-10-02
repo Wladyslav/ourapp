@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0 150px 100px;
+  margin: 0 0 100px;
   width: 80vw;
 }
 .description {
@@ -60,6 +60,13 @@
 .main_text {
   font-weight: 700;
   padding-bottom: 8px;
+}
+.slide_up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
 }
 .sub_text {
   color: #7a7a7a;

@@ -27,7 +27,7 @@ class AboutSection extends Component {
   render() {
     return (
       <div className={styles.section_container}>
-        <div className="slideUp">
+        <div className={styles.slide_up}>
           <div className={styles.description_container}>
             <p className={styles.logo}>
               <span
