@@ -27,7 +27,7 @@ class AboutSection extends Component {
   render() {
     return (
       <div className={styles.section_container}>
-        <div className="slideUp">
+        <div className={styles.slide_up}>
           <div className={styles.description_container}>
             <p className={styles.logo}>
               <span
@@ -44,7 +44,7 @@ class AboutSection extends Component {
               front and back end development, along with solid UI/UX Design
               skills. Offering a wide range of web and app development services,
               such as bespoke WordPress sites, eCommerce platforms, iOS and
-              Android apps, and powerful .NET sites.d
+              Android apps, and powerful .NET sites...
             </p>
           </div>
           <div className={styles.title}>
