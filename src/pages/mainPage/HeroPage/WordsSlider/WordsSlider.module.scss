@@ -1,17 +1,19 @@
 .mainPage_container {
   max-width: 800px;
   text-align: center;
+  padding: 10px;
 }
 .title_container {
 }
 
 .mainTitle {
-  font-size: 60px;
+  font-size: 42px;
   transition: 1s linear opacity;
   opacity: 0;
+  padding: 0 10px;
 }
 .mainTitle.animated {
-  font-size: 60px;
+  font-size: 42px;
   opacity: 1;
   //   transition: 1s linear opacity;
 }
