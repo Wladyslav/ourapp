@@ -44,7 +44,7 @@ class AboutSection extends Component {
               front and back end development, along with solid UI/UX Design
               skills. Offering a wide range of web and app development services,
               such as bespoke WordPress sites, eCommerce platforms, iOS and
-              Android apps, and powerful .NET sites.
+              Android apps, and powerful .NET sites.d
             </p>
           </div>
           <div className={styles.title}>
