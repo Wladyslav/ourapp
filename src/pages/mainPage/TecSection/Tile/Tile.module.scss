@@ -1,0 +1,37 @@
+.tile_container {
+  width: 400px;
+  height: 200px;
+  background: cornflowerblue;
+  box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.6);
+
+  &:hover {
+    animation: wobble-hor-bottom 0.8s both;
+  }
+
+  .tile_img {
+    background: cornflowerblue;
+    box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.6);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
