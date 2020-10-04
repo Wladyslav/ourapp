@@ -1,0 +1,19 @@
+.findUs_section {
+  min-height: 60vh;
+  background-color: gray;
+  background-image: url("../../../assets/imgs/findUs.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_text {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 26px;
+  padding: 0 15px;
+  line-height: 1.5;
+  text-align: center;
+}
