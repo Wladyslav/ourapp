@@ -63,7 +63,7 @@ class WordsSlider extends Component {
             Freelance Web & App Developer based in Brighton, UK
           </h3>
         </div>
-        <div>
+        <div style={{ marginTop: "30px" }}>
           <Button>GET IN TOUCH</Button>
           <Button secondary>RECENT WORK</Button>
         </div>

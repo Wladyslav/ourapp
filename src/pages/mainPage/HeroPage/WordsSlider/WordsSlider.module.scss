@@ -20,4 +20,11 @@
 .subTitle {
   font-size: 26px;
   margin: 24px 70px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .subTitle {
+    display: block;
+  }
 }
