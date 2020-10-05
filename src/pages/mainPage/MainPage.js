@@ -4,7 +4,7 @@ import HeroPage from "./HeroPage/HeroPage";
 import ClientsOpinionSection from "./ClientsOpinionSection/ClientsOpinionSection";
 import TecSection from "./TecSection/TecSection.js";
 import FindUsSection from "./FindUsSection/FindUsSection";
-import Footer from "./Footer/Footer";
+
 const MainPage = () => (
   <>
     <HeroPage />
@@ -12,7 +12,6 @@ const MainPage = () => (
     <ClientsOpinionSection />
     <TecSection />
     <FindUsSection />
-    <Footer />
   </>
 );
 

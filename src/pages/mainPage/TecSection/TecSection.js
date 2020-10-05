@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./TecSection.module.scss";
+import Fade from "react-reveal/Fade";
 import Tile from "./Tile/Tile.js";
 
 const items_array = [
@@ -37,14 +38,16 @@ const items_array = [
 
 const TecSection = () => (
   <div className={styles.tec_section_container}>
-    <div className={styles.title}>
-      <h2>Tecnology</h2>
-    </div>
-    <div className={styles.tiles_container}>
-      {items_array.map((item) => (
-        <Tile item={item} />
-      ))}
-    </div>
+    <Fade bottom>
+      <div className={styles.title}>
+        <h2>Tecnology</h2>
+      </div>
+      <div className={styles.tiles_container}>
+        {items_array.map((item) => (
+          <Tile item={item} />
+        ))}
+      </div>
+    </Fade>
   </div>
 );
 export default TecSection;

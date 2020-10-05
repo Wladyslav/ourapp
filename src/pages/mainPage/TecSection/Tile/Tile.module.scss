@@ -1,5 +1,5 @@
 .tile_container {
-  width: 400px;
+  width: 320px;
   height: 200px;
   background: cornflowerblue;
   box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.6);
@@ -20,18 +20,18 @@
     transform-origin: 50% 50%;
   }
   15% {
-    transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-10px) rotate(-3deg);
   }
   30% {
-    transform: translateX(15px) rotate(6deg);
+    transform: translateX(7px) rotate(3deg);
   }
   45% {
-    transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-7px) rotate(-2deg);
   }
   60% {
-    transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(4px) rotate(1.4deg);
   }
   75% {
-    transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-3px) rotate(-0.9deg);
   }
 }
