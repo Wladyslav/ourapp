@@ -8,6 +8,12 @@ import Footer from "./layout/Footer/Footer";
 
 class App extends Component {
   state = {};
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      let nav = document.querySelector("header");
+      nav.classList.toggle("section_size", window.scrollY > 0);
+    });
+  }
   render() {
     return (
       <Router>

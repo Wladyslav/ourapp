@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: "Lato";
 }
+header.section_size {
+  height: 80px;
+  background: #000000;
+}
