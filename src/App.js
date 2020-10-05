@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./layout/header/Header";
 import MainPage from "./pages/mainPage/MainPage";
 import Contact from "./pages/contact/Contact";
+import Footer from "./layout/Footer/Footer";
 
 class App extends Component {
   state = {};
@@ -16,6 +17,7 @@ class App extends Component {
 
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </Router>
     );
   }
