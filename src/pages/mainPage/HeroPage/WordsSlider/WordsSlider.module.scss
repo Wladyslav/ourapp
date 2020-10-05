@@ -1,5 +1,5 @@
 .mainPage_container {
-  max-width: 800px;
+  max-width: 1000px;
   text-align: center;
   padding: 10px;
 }
@@ -26,5 +26,11 @@
 @media (min-width: 768px) {
   .subTitle {
     display: block;
+  }
+  .mainTitle {
+    font-size: 70px;
+  }
+  .mainTitle.animated {
+    font-size: 70px;
   }
 }
