@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Button.module.scss";
 
-const Button = ({ children, secondary }) => {
+const Button = ({ children, secondary, section }) => {
   return (
     <>
       <button
@@ -9,7 +9,7 @@ const Button = ({ children, secondary }) => {
           secondary ? `${styles.mainBtn} ${styles.secondary}` : styles.mainBtn
         }
       >
-        {children}
+        <a href={section}>{children}</a>
       </button>
     </>
   );
