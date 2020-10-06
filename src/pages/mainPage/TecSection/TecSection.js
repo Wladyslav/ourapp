@@ -37,7 +37,7 @@ const items_array = [
 ];
 
 const TecSection = () => (
-  <div className={styles.tec_section_container}>
+  <section id="technology" className={styles.tec_section_container}>
     <Fade bottom>
       <div className={styles.title}>
         <h2>Tecnology</h2>
@@ -48,6 +48,6 @@ const TecSection = () => (
         ))}
       </div>
     </Fade>
-  </div>
+  </section>
 );
 export default TecSection;
