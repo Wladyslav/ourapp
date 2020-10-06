@@ -1,0 +1,26 @@
+.contact_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  padding: 140px 0 50px 0;
+  background: #f7f7f7;
+  .title_section {
+    position: relative;
+
+    .page_title {
+      border: black 5px solid;
+      text-transform: uppercase;
+      font-weight: 900;
+      padding: 38px 50px;
+      line-height: 1.1;
+    }
+  }
+
+  .map_container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+}
