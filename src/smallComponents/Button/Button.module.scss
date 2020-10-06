@@ -9,10 +9,7 @@
   font-size: 14px;
   outline: none;
   cursor: pointer;
-  a {
-    width: 100%;
-    height: 100%;
-  }
+
   &.secondary {
     background-color: #fff;
     color: black;
@@ -23,5 +20,13 @@
   &:hover {
     background-color: #bfa67a;
     border: 3px solid #bfa67a;
+  }
+}
+
+.mainHref {
+  color: white;
+  text-decoration: none;
+  &.secondaryHref {
+    color: black;
   }
 }

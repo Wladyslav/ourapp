@@ -9,7 +9,16 @@ const Button = ({ children, secondary, section }) => {
           secondary ? `${styles.mainBtn} ${styles.secondary}` : styles.mainBtn
         }
       >
-        <a href={section}>{children}</a>
+        <a
+          href={section}
+          className={
+            secondary
+              ? `${styles.mainHref} ${styles.secondaryHref}`
+              : styles.mainHref
+          }
+        >
+          {children}
+        </a>
       </button>
     </>
   );
