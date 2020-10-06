@@ -1,9 +1,10 @@
 .contact_container {
   display: flex;
   flex-wrap: wrap;
-
+  min-height: calc(100vh - 70px);
   justify-content: center;
   padding: 140px 0 50px 0;
+
   background: #f7f7f7;
   .title_section {
     position: relative;
