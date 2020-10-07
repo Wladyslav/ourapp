@@ -1,0 +1,55 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 750px;
+
+  .input {
+    height: 47px;
+    width: 47%;
+    margin: 10px;
+
+    outline: none;
+  }
+  .textarea {
+    margin: 10px;
+    padding-top: 15px;
+    width: 100%;
+    height: 200px;
+    outline: none;
+    resize: none;
+  }
+}
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea {
+  height: 47px;
+  border: 2px solid #e3e3e3;
+  background-color: transparent;
+  margin-bottom: 16px;
+  padding: 0 16px;
+
+  &:focus {
+    border-color: #bfa67a;
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    -ms-transition: border-color 0.4s ease-in-out;
+    -o-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+  }
+}
+@media (max-width: 900px) {
+  .form {
+    width: 90%;
+    .input {
+      width: 100%;
+    }
+  }
+}

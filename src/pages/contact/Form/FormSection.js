@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./FormSection.module.scss";
+import Form from "./Form";
 
 const FormSection = () => (
   <section className={styles.contact_form}>
@@ -26,6 +27,8 @@ const FormSection = () => (
         <span></span>
       </div>
     </div>
+
+    <Form />
   </section>
 );
 export default FormSection;
