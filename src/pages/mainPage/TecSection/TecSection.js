@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./TecSection.module.scss";
 import Fade from "react-reveal/Fade";
 import Tile from "./Tile/Tile.js";
-
+import JavaScriptImage from "../../../assets/imgs/javascript.jpg";
 const items_array = [
   {
-    icon: "1",
+    icon: JavaScriptImage,
     main_text: "1",
     link: "",
   },
@@ -44,7 +44,9 @@ const TecSection = () => (
       </div>
       <div className={styles.tiles_container}>
         {items_array.map((item) => (
-          <Tile item={item} />
+          <Tile img={item.icon} key={item.icon}>
+            {item.main_text}
+          </Tile>
         ))}
       </div>
     </Fade>

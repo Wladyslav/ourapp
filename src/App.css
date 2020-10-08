@@ -4,7 +4,13 @@
   box-sizing: border-box;
   font-family: "Lato";
 }
-header.section_size {
-  height: 80px;
-  background: #000000;
+
+@media (min-width: 768px) {
+  header.section_size {
+    height: 80px;
+    background: #000000;
+  }
+  thead.section_size {
+    font-size: 30px;
+  }
 }
