@@ -30,3 +30,12 @@
   top: 60px;
   text-decoration: none;
 }
+
+@media (min-width: 768px) {
+  .navItem {
+    display: none;
+  }
+  .mobileNavElements {
+    display: none;
+  }
+}
