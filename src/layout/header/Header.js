@@ -3,10 +3,13 @@ import styles from "../header/Header.module.scss";
 import Navigation from "../navigation/Navigation.js";
 import Logo from "../Logo/Logo";
 
+import Burger from "../MobileNav/Burger/Burger";
+import MobileNav from "../MobileNav/MobileNav";
+
 const Header = () => (
   <header className={styles.header}>
     <Logo />
-
+    <MobileNav />
     <Navigation />
   </header>
 );

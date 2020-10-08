@@ -12,6 +12,8 @@ class App extends Component {
     window.addEventListener("scroll", () => {
       let nav = document.querySelector("header");
       nav.classList.toggle("section_size", window.scrollY > 0);
+      let logo = document.querySelector("thead");
+      logo.classList.toggle("section_size", window.scrollY > 0);
     });
   }
   render() {

@@ -1,0 +1,29 @@
+.mobileNav_wrapper {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  right: 30px;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    top: -7px;
+    background-color: white;
+  }
+  &::before {
+    content: "";
+    top: 7px;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobileNav_wrapper {
+    display: none;
+  }
+}

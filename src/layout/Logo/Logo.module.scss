@@ -1,0 +1,19 @@
+.logo {
+  position: absolute;
+  left: 30px;
+  font-size: 28px;
+  border: 2px solid white;
+  padding: 5px 9px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 40px;
+    border: 2px solid white;
+    padding: 5px 12px;
+  }
+  thead {
+    font-size: 40px;
+    transition: 0.3s linear;
+  }
+}

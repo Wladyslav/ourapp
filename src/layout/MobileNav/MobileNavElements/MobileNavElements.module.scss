@@ -1,0 +1,13 @@
+.navItem {
+}
+.mobileNavElements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(17, 17, 17, 0.5);
+  width: 100vw;
+  height: 60vh;
+  position: fixed;
+  left: 0;
+  top: 80px;
+}
