@@ -31,7 +31,7 @@ const Form = () => {
         id="name"
         type="text"
         placeholder="Name*"
-        required=""
+        required
       />
       <input
         className={styles.input}
@@ -39,20 +39,20 @@ const Form = () => {
         id="email"
         type="email"
         placeholder="E-mail*"
-        required=""
+        required
       />
       <textarea
         className={styles.textarea}
         name="message"
         id="message"
         placeholder="Message*"
-        required=""
+        required
       />
       <input
         type="submit"
         className={styles.submit_btn}
         title="Send Message"
-        value="Send Message"
+        value="Send"
         id="submit-message"
       />
     </form>
