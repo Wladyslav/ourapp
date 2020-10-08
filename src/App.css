@@ -10,7 +10,7 @@
     height: 80px;
     background: #000000;
   }
-  thead.section_size {
+  small.section_size {
     font-size: 30px;
   }
 }
