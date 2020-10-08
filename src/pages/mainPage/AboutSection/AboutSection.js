@@ -40,7 +40,7 @@ class AboutSection extends Component {
                 </span>
                 <span style={{ color: "#bda67d" }}>S</span>
               </p>
-              <p class={styles.description}>
+              <p className={styles.description}>
                 Freelance Web & App Developer in Brighton with expertise in both
                 front and back end development, along with solid UI/UX Design
                 skills. Offering a wide range of web and app development
@@ -55,7 +55,7 @@ class AboutSection extends Component {
             </div>
             <div className={styles.icon_text_container}>
               {items_array.map((item) => (
-                <div className={styles.item}>
+                <div className={styles.item} key={item.main_text}>
                   <div className={styles.circle}>
                     <i
                       className={item.icon}

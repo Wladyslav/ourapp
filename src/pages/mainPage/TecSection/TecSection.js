@@ -44,7 +44,9 @@ const TecSection = () => (
       </div>
       <div className={styles.tiles_container}>
         {items_array.map((item) => (
-          <Tile img={item.icon}>{item.main_text}</Tile>
+          <Tile img={item.icon} key={item.icon}>
+            {item.main_text}
+          </Tile>
         ))}
       </div>
     </Fade>
