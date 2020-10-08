@@ -24,7 +24,7 @@ class WordsSlider extends Component {
   };
 
   startCarousel = () => {
-    setInterval(() => {
+    this.animationInterval = setInterval(() => {
       this.setState((prevState) => ({
         animationStart: !prevState.animationStart,
       }));
@@ -44,6 +44,10 @@ class WordsSlider extends Component {
 
   componentDidMount() {
     this.startCarousel();
+  }
+  componentWillUnmount() {
+    clearInterval(this.animationInterval);
+    clearInterval(this.carouselInterval);
   }
 
   render() {
