@@ -1,4 +1,11 @@
 .contact_form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  justify-content: center;
   .contact_items_container {
+    background-color: blue;
+    width: 25%;
   }
 }
