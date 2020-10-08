@@ -7,8 +7,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-attachment: fixed;
+
   background-position: center center;
+
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .findUs_section {
+    background-attachment: fixed;
+  }
 }
 
 .main_text {

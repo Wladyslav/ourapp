@@ -3,6 +3,7 @@
   height: 200px;
   background: cornflowerblue;
   box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.6);
+  margin: 20px;
 
   &:hover {
     animation: wobble-hor-bottom 0.8s both;
