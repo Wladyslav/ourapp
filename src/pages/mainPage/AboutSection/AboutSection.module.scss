@@ -97,3 +97,15 @@
   margin-left: 30px;
   width: 65%;
 }
+
+@media (min-width: 768px) {
+  .description_container {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 1240px) {
+  .description_container {
+    width: 40vw;
+  }
+}
