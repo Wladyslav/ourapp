@@ -5,7 +5,10 @@
 
   justify-content: center;
   .contact_items_container {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
     width: 25%;
   }
 }
