@@ -52,7 +52,7 @@ const Form = () => {
         type="submit"
         className={styles.submit_btn}
         title="Send Message"
-        value="Send"
+        value="Wyślij wiadomość"
         id="submit-message"
       />
     </form>

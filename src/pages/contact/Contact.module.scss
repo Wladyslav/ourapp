@@ -3,12 +3,13 @@
   flex-wrap: wrap;
   min-height: calc(100vh - 70px);
   justify-content: center;
-  padding: 140px 0 0px 0;
 
-  background: #f7f7f7;
   .title_section {
-    position: relative;
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 140px 0 60px 0;
+    background: #f7f7f7;
     .page_title {
       border: black 5px solid;
       text-transform: uppercase;

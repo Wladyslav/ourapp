@@ -19,6 +19,23 @@
     outline: none;
     resize: none;
   }
+  .submit_btn {
+    color: white;
+    transition: 0.15s linear;
+    background-color: #bfa67a;
+    border: 3px solid #bfa67a;
+    padding: 13px 30px;
+    font-weight: 700;
+    margin: 15px 10px;
+    font-size: 14px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+      background-color: #000;
+      border: 3px solid #000;
+    }
+  }
 }
 input[type="date"],
 input[type="email"],
@@ -35,6 +52,7 @@ textarea {
   background-color: transparent;
   margin-bottom: 16px;
   padding: 0 16px;
+  font-size: 16px;
 
   &:focus {
     border-color: #bfa67a;
@@ -45,7 +63,7 @@ textarea {
     transition: border-color 0.4s ease-in-out;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .form {
     width: 90%;
     .input {

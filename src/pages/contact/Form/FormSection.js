@@ -9,22 +9,28 @@ const FormSection = () => (
         <div className={styles.contact_item_icon}>
           <i className="fas fa-search-location"></i>
         </div>
-        <h3>location</h3>
-        <span></span>
+        <div className="item_description">
+          <h3>Location</h3>
+          <p>Wrocław</p>
+        </div>
       </div>
       <div className={styles.contact_item}>
         <div className={styles.contact_item_icon}>
           <i className="fas fa-phone"></i>
         </div>
-        <h3>Call</h3>
-        <span></span>
+        <div className="item_description">
+          <h3>Call</h3>
+          <p>777</p>
+        </div>
       </div>
       <div className={styles.contact_item}>
         <div className={styles.contact_item_icon}>
           <i className="far fa-envelope"></i>
         </div>
-        <h3>Email</h3>
-        <span></span>
+        <div className="item_description">
+          <h3>Email</h3>
+          <p>twojamatka@kurwa.com</p>
+        </div>
       </div>
     </div>
 
