@@ -48,13 +48,14 @@ const Form = () => {
         placeholder="Message*"
         required
       />
-      <input
+      <button
         type="submit"
         className={styles.submit_btn}
         title="Send Message"
-        value="Wyślij wiadomość"
         id="submit-message"
-      />
+      >
+        Wyślij wiadomość
+      </button>
     </form>
   );
 };

@@ -2,6 +2,7 @@
   list-style-type: none;
   opacity: 0;
   transition: 0.1s linear;
+
   .itemLink {
     text-decoration: none;
     text-transform: uppercase;
@@ -14,7 +15,11 @@
       color: #bfa67a;
     }
   }
+  .itemLinkActive {
+    color: #bfa67a;
+  }
 }
+
 .mobileNavElements {
   transition: 0.1s linear;
   display: flex;
