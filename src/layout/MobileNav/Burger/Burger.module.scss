@@ -1,5 +1,16 @@
-.mobileNav_wrapper {
+@mixin burger() {
+  background-color: white;
   position: absolute;
+  transition: 0.15s linear;
+}
+
+@mixin burgerOpen() {
+  background-color: white;
+  position: absolute;
+  transition: 0.15s linear;
+}
+
+.mobileNav_wrapper {
   right: 20px;
   top: calc(50% - 20px);
   width: 40px;
@@ -7,27 +18,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  span {
+  position: absolute;
+  .burger {
+    content: "";
     width: 20px;
     height: 2px;
-    background-color: white;
-    position: absolute;
-
+    @include burger();
     &::after {
       content: "";
-      position: absolute;
       width: 25px;
       height: 2px;
       top: -7px;
-      background-color: white;
+      @include burger();
     }
     &::before {
       content: "";
       top: 7px;
-      position: absolute;
       width: 25px;
       height: 2px;
-      background-color: white;
+      @include burger();
+    }
+    &.open {
+      @include burgerOpen();
+      height: 0px;
+      &::before {
+        content: "";
+        top: 0px;
+        width: 25px;
+        height: 2px;
+        transform: rotate(-45deg);
+        @include burgerOpen();
+      }
+      &::after {
+        content: "";
+        width: 25px;
+        height: 2px;
+        top: 0px;
+        @include burgerOpen();
+        transform: rotate(45deg);
+      }
     }
   }
 }
