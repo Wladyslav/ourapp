@@ -24,8 +24,11 @@
     transition: 0.15s linear;
     background-color: #bfa67a;
     border: 3px solid #bfa67a;
+<<<<<<< HEAD
     width: auto;
 
+=======
+>>>>>>> 4dc362f6d1ce5f447b46965170c474467ec6eac4
     padding: 13px 30px;
     font-weight: 700;
     margin: 15px 10px;
@@ -60,9 +63,11 @@ textarea {
   margin-bottom: 16px;
   padding: 0 16px;
   font-size: 16px;
+  border-radius: 0;
 
   &:focus {
     border-color: #bfa67a;
+    -webkit-appearance: none;
     -webkit-transition: border-color 0.4s ease-in-out;
     -moz-transition: border-color 0.4s ease-in-out;
     -ms-transition: border-color 0.4s ease-in-out;
