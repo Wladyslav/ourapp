@@ -1,11 +1,18 @@
-import React from "react";
+import React, {Component} from "react";
 import styles from "./Form.module.scss";
 import emailjs from "emailjs-com";
+import PopUp from "../PopUp/PopUp";
+import Loader from "../../../smallComponents/Loader/Loader";
 
-const Form = () => {
-  const sendEmail = (e) => {
+class Form extends Component {
+  state = {
+    showPopUp: false,
+    message: "",
+    loader: false
+  }
+  sendEmail = (e) => {
     e.preventDefault();
-
+    this.setState({loader: true})
     emailjs
       .sendForm(
         "238967",
@@ -16,15 +23,27 @@ const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
+          this.setState({
+            showPopUp: true,
+            message: result.text,
+            loader: false
+          })
         },
         (error) => {
           console.log(error.text);
+          this.setState({
+            showPopUp: true,
+            message: error.text,
+            loader: false
+          })
         }
       );
     e.target.reset();
   };
-  return (
-    <form className={styles.form} onSubmit={sendEmail}>
+  render(){
+    return (
+    <>
+    <form className={styles.form} onSubmit={this.sendEmail}>
       <input
         className={styles.input}
         name="name"
@@ -57,7 +76,11 @@ const Form = () => {
         Wyślij wiadomość
       </button>
     </form>
-  );
+    {this.state.loader ? <Loader/> : null }
+    {this.state.showPopUp ? <PopUp message={this.state.message}/> : null}
+    </>
+    )
+  }
 };
 
 export default Form;
