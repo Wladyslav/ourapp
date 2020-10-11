@@ -5,7 +5,7 @@ import FormSection from "./Form/FormSection";
 const Contact = () => (
   <div className={styles.contact_container}>
     <section className={styles.title_section}>
-      <h1 className={styles.page_title}>contact</h1>
+      <h1 className={styles.page_title}>Kontakt</h1>
     </section>
 
     <FormSection />
