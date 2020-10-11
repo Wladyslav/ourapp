@@ -1,9 +1,16 @@
 .popUp {
-  width: 300px;
-  height: 300px;
+  width: 100vw;
+  height: 100px;
   background-color: #bfa67a;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  transform: translateY(100px);
+  transition: 0.3s transform linear;
+  &.open {
+    transform: translateY(0);
+  }
 }

@@ -6,10 +6,17 @@ import Loader from "../../../smallComponents/Loader/Loader";
 
 class Form extends Component {
   state = {
-    showPopUp: false,
+    showPopUp:false,
     message: "",
     loader: false
   }
+
+  timeOutPopUp = () => {
+    setTimeout(() => {
+      this.setState({showPopUp: false})
+    }, 3000)
+  }
+
   sendEmail = (e) => {
     e.preventDefault();
     this.setState({loader: true})
@@ -23,6 +30,7 @@ class Form extends Component {
       .then(
         (result) => {
           console.log(result.text);
+          this.timeOutPopUp();
           this.setState({
             showPopUp: true,
             message: result.text,
@@ -31,6 +39,7 @@ class Form extends Component {
         },
         (error) => {
           console.log(error.text);
+          this.timeOutPopUp();
           this.setState({
             showPopUp: true,
             message: error.text,
@@ -77,7 +86,7 @@ class Form extends Component {
       </button>
     </form>
     {this.state.loader ? <Loader/> : null }
-    {this.state.showPopUp ? <PopUp message={this.state.message}/> : null}
+    <PopUp message={this.state.message} show={this.state.showPopUp}/>
     </>
     )
   }
