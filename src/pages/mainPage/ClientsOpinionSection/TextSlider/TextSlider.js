@@ -65,10 +65,7 @@ class SimpleSlider extends React.Component {
               fontWeight: "100",
             }}
           >
-            "Vladyslaw and Sebastian are very talented and I would highly
-            recommend him to anyone."
-            <br />
-            Thank you Vladyslaw and Sebastian for all your hard work!
+            88% konsumentów szuka informacji o produkcie w internecie,
           </h3>
         </article>
       </Slider>

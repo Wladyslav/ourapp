@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../header/Header.module.scss";
 import Navigation from "../navigation/Navigation.js";
 import Logo from "../Logo/Logo";
-import MobileNav from "../MobileNav/MobileNav";
+import MobileNav from "../mobileNav/MobileNav";
 
 const Header = () => (
   <header className={styles.header}>
