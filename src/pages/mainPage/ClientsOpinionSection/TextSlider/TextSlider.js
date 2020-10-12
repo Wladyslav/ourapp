@@ -16,15 +16,6 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings} autoplay="true" className={styles.slider_container}>
         <article className={styles.slider_item}>
-          <i
-            className="fas fa-quote-left"
-            style={{
-              color: "#fff",
-              textAlign: "center",
-              width: "100%",
-              fontSize: "24px",
-            }}
-          ></i>
           <h3
             style={{
               color: "#fff",
@@ -37,22 +28,28 @@ class SimpleSlider extends React.Component {
               fontWeight: "100",
             }}
           >
-            "Finally, a web developer who never disappointed us"
-            <br />
-            Vladyslaw and Sebastian has always provided good solutions to our
-            web challenges, in a timely manner and frequently pro-actively.
+            47.3% światowej populacji kupi coś online w 2020 roku.
+          </h3>
+        </article>
+        <article className={styles.slider_item}></article>
+        <article className={styles.slider_item}>
+          <h3
+            style={{
+              color: "#fff",
+              textAlign: "center",
+              lineHeight: "39px",
+              margin: "30px 0",
+              fontFamily: "PT Serif, serif",
+              fontSize: "24px",
+              fontStyle: "italic",
+              fontWeight: "100",
+            }}
+          >
+            71% kupujących wierzą, że dostaną lepszą ofertę online niż w
+            sklepach.
           </h3>
         </article>
         <article className={styles.slider_item}>
-          <i
-            className="fas fa-quote-left"
-            style={{
-              color: "#fff",
-              textAlign: "center",
-              width: "100%",
-              fontSize: "28px",
-            }}
-          ></i>
           <h3
             style={{
               color: "#fff",
@@ -65,7 +62,8 @@ class SimpleSlider extends React.Component {
               fontWeight: "100",
             }}
           >
-            88% konsumentów szuka informacji o produkcie w internecie,
+            Ile stron jest w 2020? W styczniu 2020 było ponad 1.74 miliarda
+            stron internetowych w Internecie.
           </h3>
         </article>
       </Slider>
