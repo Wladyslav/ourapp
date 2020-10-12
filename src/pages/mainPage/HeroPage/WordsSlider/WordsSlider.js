@@ -69,7 +69,7 @@ class WordsSlider extends Component {
         </div>
         <div style={{ marginTop: "30px" }}>
           <Button>GET IN TOUCH</Button>
-          <Button secondary section="#technology">
+          <Button secondary section="technology">
             RECENT WORK
           </Button>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Button.module.scss";
-
+import {Link} from 'react-scroll';
 const Button = ({ children, secondary, section }) => {
   return (
     <>
@@ -9,16 +9,23 @@ const Button = ({ children, secondary, section }) => {
           secondary ? `${styles.mainBtn} ${styles.secondary}` : styles.mainBtn
         }
       >
-        <a
-          href={section}
+        <Link
+        style={{
+          width: "185px",
+          height: "50px"
+        }}
+          to={section}
           className={
             secondary
               ? `${styles.mainHref} ${styles.secondaryHref}`
               : styles.mainHref
           }
+          smooth={true}
+          duration={1000}
+        
         >
           {children}
-        </a>
+        </Link>
       </button>
     </>
   );
