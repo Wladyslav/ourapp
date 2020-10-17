@@ -3,6 +3,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./TextSlider.module.scss";
+import {
+  AiOutlineLaptop,
+  AiOutlineShopping,
+  AiOutlineGlobal,
+} from "react-icons/ai";
 
 class SimpleSlider extends React.Component {
   render() {
@@ -16,14 +21,18 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings} autoplay="true" className={styles.slider_container}>
         <article className={styles.slider_item}>
+          <div className={styles.icon}>
+            <AiOutlineShopping />
+          </div>
           <h3
+            className={styles.text}
             style={{
               color: "#fff",
               textAlign: "center",
-              lineHeight: "39px",
-              margin: "30px 0",
+
+              margin: "30px 10px",
               fontFamily: "PT Serif, serif",
-              fontSize: "24px",
+
               fontStyle: "italic",
               fontWeight: "100",
             }}
@@ -31,16 +40,19 @@ class SimpleSlider extends React.Component {
             47.3% światowej populacji kupi coś online w 2020 roku.
           </h3>
         </article>
-        <article className={styles.slider_item}></article>
+
         <article className={styles.slider_item}>
+          <div className={styles.icon}>
+            <AiOutlineLaptop />
+          </div>
           <h3
             style={{
               color: "#fff",
               textAlign: "center",
-              lineHeight: "39px",
+
               margin: "30px 0",
               fontFamily: "PT Serif, serif",
-              fontSize: "24px",
+
               fontStyle: "italic",
               fontWeight: "100",
             }}
@@ -50,15 +62,18 @@ class SimpleSlider extends React.Component {
           </h3>
         </article>
         <article className={styles.slider_item}>
+          <div className={styles.icon}>
+            <AiOutlineGlobal />
+          </div>
           <h3
             style={{
               color: "#fff",
               textAlign: "center",
-              lineHeight: "39px",
+
               margin: "30px 0",
               fontFamily: "PT Serif, serif",
               fontStyle: "italic",
-              fontSize: "24px",
+
               fontWeight: "100",
             }}
           >

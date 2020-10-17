@@ -36,7 +36,7 @@ class AboutSection extends Component {
                     color: "#666",
                   }}
                 >
-                  S
+                  W
                 </span>
                 <span style={{ color: "#bda67d" }}>S</span>
               </p>

@@ -13,4 +13,20 @@
 
   font-style: italic;
   font-weight: 100;
+  .icon {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 500px) {
+  .slider_item {
+    h3 {
+      font-size: 30px;
+    }
+  }
 }
