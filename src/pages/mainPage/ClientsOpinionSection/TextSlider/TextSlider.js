@@ -31,7 +31,7 @@ class SimpleSlider extends React.Component {
             47.3% światowej populacji kupi coś online w 2020 roku.
           </h3>
         </article>
-        <article className={styles.slider_item}></article>
+        {/* <article className={styles.slider_item}></article> */}
         <article className={styles.slider_item}>
           <h3
             style={{
