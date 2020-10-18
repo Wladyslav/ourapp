@@ -2,25 +2,25 @@ import React from "react";
 import styles from "./TecSection.module.scss";
 import Fade from "react-reveal/Fade";
 import Tile from "./Tile/Tile.js";
-import JavaScriptImage from "../../../assets/imgs/javascript.jpg";
-import ReactImage from "../../../assets/imgs/react.png";
-import WordpressImage from "../../../assets/imgs/wordpress.png";
-import NodeJSImage from "../../../assets/imgs/nodejs.png";
+import JavaScriptImage from "../../../assets/imgs/html-js-css.png";
+import ReactImage from "../../../assets/imgs/react-js-blog-header.png";
+import WordpressImage from "../../../assets/imgs/WordPresssvg.png";
+import NodeJSImage from "../../../assets/imgs/node.png";
 import ExpressImage from "../../../assets/imgs/express.jpg";
-import MongoDBImage from "../../../assets/imgs/mongodb.png";
+import MongoDBImage from "../../../assets/imgs/mongodb-logo.png";
 const items_array = [
   {
-    icon: JavaScriptImage,
+    icon: ReactImage,
     main_text: "1",
     link: "",
   },
   {
-    icon: ReactImage,
+    icon: JavaScriptImage,
     main_text: "2",
     link: "",
   },
   {
-    icon: WordpressImage,
+    icon: MongoDBImage,
     main_text: "3",
     link: "",
   },
@@ -35,7 +35,7 @@ const items_array = [
     link: "",
   },
   {
-    icon: MongoDBImage,
+    icon: WordpressImage,
     main_text: "6",
     link: "",
   },

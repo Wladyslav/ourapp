@@ -65,11 +65,15 @@ class WordsSlider extends Component {
           </h1>
           <h3 className={styles.subTitle}>
             Freelance Web & App Developer based in Brighton, UK
-            
           </h3>
         </div>
         <div style={{ marginTop: "30px" }}>
-          <Button>SKONTAKTUJ SIĘ</Button>
+          <Button
+            children={"skontaktuj się"}
+            secondary={false}
+            section={"/contact"}
+          ></Button>
+
           <Button secondary section="technology">
             TECHNOLOGIE
           </Button>
