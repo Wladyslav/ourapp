@@ -7,7 +7,7 @@ const textContent = [
     mainTitle: "UX DESIGN",
   },
   {
-    mainTitle: "MODERN TECHNOLOGIES",
+    mainTitle: "NOWOCZESNE TECHNOLOGIE",
   },
   {
     mainTitle: "WORDPRESS EXPERT",
@@ -73,7 +73,6 @@ class WordsSlider extends Component {
             secondary={false}
             path={"/contact"}
             router
-            
           ></Button>
 
           <Button secondary section="technology">

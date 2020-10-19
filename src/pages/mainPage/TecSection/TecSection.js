@@ -12,36 +12,37 @@ import Popup from "./Popup/Popup";
 
 const items_array = [
   {
+    id: 1,
     icon: ReactImage,
-    main_text: "1",
   },
   {
+    id: 2,
     icon: JavaScriptImage,
-    main_text: "2",
   },
   {
+    id: 3,
     icon: MongoDBImage,
-    main_text: "3",
   },
   {
+    id: 4,
     icon: NodeJSImage,
-    main_text: "4",
   },
   {
+    id: 5,
     icon: ExpressImage,
-    main_text: "5",
   },
   {
+    id: 6,
     icon: WordpressImage,
-    main_text: "6",
   },
 ];
 
 class TecSection extends Component {
   state = {
     isPopupOpen: false,
+    itemId: 0,
   };
-  handleTogglePopup = () => {
+  handlePopupClose = () => {
     this.setState((prevState) => ({
       isPopupOpen: !prevState.isPopupOpen,
     }));
@@ -58,7 +59,12 @@ class TecSection extends Component {
               <Tile
                 key={item.icon}
                 img={item.icon}
-                handleTogglePopup={this.handleTogglePopup}
+                handlePopupOpen={() => {
+                  this.setState((prevState) => ({
+                    itemId: item.id,
+                    isPopupOpen: !prevState.isPopupOpen,
+                  }));
+                }}
               >
                 {/* {item.main_text} */}
               </Tile>
@@ -67,7 +73,8 @@ class TecSection extends Component {
         </Fade>
         <Popup
           isPopupOpen={this.state.isPopupOpen}
-          handleTogglePopup={this.handleTogglePopup}
+          handlePopupClose={this.handlePopupClose}
+          currentID={this.state.itemId}
         />
       </section>
     );

@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Tile.module.scss";
 
-const Tile = ({ img, handleTogglePopup }) => (
+const Tile = ({ img, handlePopupOpen }) => (
   <div
-    onClick={handleTogglePopup}
+    onClick={handlePopupOpen}
     className={styles.tile_container}
     style={{ backgroundImage: `url(${img})` }}
   >
