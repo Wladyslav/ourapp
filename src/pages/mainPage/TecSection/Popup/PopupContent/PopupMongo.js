@@ -10,10 +10,12 @@ const PopupMongo = () => {
         style={{ backgroundImage: `url(${img})` }}
       ></div>
       <div className={styles.description}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, unde.
-        Omnis possimus quisquam nulla impedit. Fugit, ea provident quisquam
-        repudiandae sapiente dolorum sequi excepturi at itaque quia vel eveniet
-        sed.
+        Jest to otwarty, nierelacyjny system zarządzania bazą danych napisany w
+        języku C++. Interfejsy programistyczne pozwalające obsługiwać bazy
+        MongoDB powstały dla wszystkich wiodących języków programowania, w tym
+        dla C, C++, Javy, PHP, Perla, Pythona i Rubiego. Wśród znanych
+        użytkowników systemu występują: SourceForge, The New York Times, Wielki
+        Zderzacz Hadronów
       </div>
     </div>
   );

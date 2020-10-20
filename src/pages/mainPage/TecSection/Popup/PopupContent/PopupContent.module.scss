@@ -12,6 +12,45 @@
   .description {
     margin: 20px auto;
     text-align: center;
-    max-width: 500px;
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 2;
+  }
+}
+@media (max-width: 900px) {
+  .tec_description_wrapper {
+    margin: 30px 30px;
+
+    .logo {
+      height: 200px;
+      margin: 30px auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto 200px;
+    }
+
+    .description {
+      margin: 20px auto;
+      text-align: center;
+      max-width: 600px;
+      font-size: 20px;
+      line-height: 1.8;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .tec_description_wrapper {
+    margin: 15px 10px;
+
+    .logo {
+      margin: 30px auto;
+      height: 100px;
+
+      background-size: auto 100px;
+    }
+
+    .description {
+      line-height: 1.5;
+    }
   }
 }

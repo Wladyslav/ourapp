@@ -10,10 +10,13 @@ const PopupNode = () => {
         style={{ backgroundImage: `url(${img})` }}
       ></div>
       <div className={styles.description}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, unde.
-        Omnis possimus quisquam nulla impedit. Fugit, ea provident quisquam
-        repudiandae sapiente dolorum sequi excepturi at itaque quia vel eveniet
-        sed.
+        Jest wieloplatformowym oprogramowaniem o otwartym kodzie, które pozwala
+        deweloperom na tworzenie wszelkiego rodzaju oprogramowania w języku
+        JavaScript pracującym po stronie serwera. Wiele firm i korporacji
+        aktywnie korzysta z Node.js. Są to m.in. Airbnb, Aliexpress, Coursea,
+        eBay, GoDaddy, Groupon, IBM, LinkedIn, MasterCard, Medium, Microsoft,
+        NASA, Netflix, PayPal, Pinterest, Tumblr, Twitter, Walmart, Uber, czy
+        Yahoo!.
       </div>
     </div>
   );

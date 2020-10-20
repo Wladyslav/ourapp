@@ -10,10 +10,14 @@ const PopupReact = () => {
         style={{ backgroundImage: `url(${img})` }}
       ></div>
       <div className={styles.description}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, unde.
-        Omnis possimus quisquam nulla impedit. Fugit, ea provident quisquam
-        repudiandae sapiente dolorum sequi excepturi at itaque quia vel eveniet
-        sed.
+        <p>
+          Jest to biblioteka języka programowania JavaScript, która
+          wykorzystywana jest do tworzenia interfejsów graficznych aplikacji
+          internetowych. Została stworzona przez Jordana Walke, programistę
+          Facebooka. React.js jest obecnie używany na stronach internetowych
+          firm takich jak Netflix, Imgur, PayPal, Archive.org, Gamepedia,
+          SeatGeek, HelloSign czy Walmart.
+        </p>
       </div>
     </div>
   );

@@ -10,10 +10,8 @@ const PopupExpress = () => {
         style={{ backgroundImage: `url(${img})` }}
       ></div>
       <div className={styles.description}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, unde.
-        Omnis possimus quisquam nulla impedit. Fugit, ea provident quisquam
-        repudiandae sapiente dolorum sequi excepturi at itaque quia vel eveniet
-        sed.
+        Express to popularny framework webowy stworzony w języku JavaScript
+        działający w środowisku uruchomieniowym Node.js.
       </div>
     </div>
   );

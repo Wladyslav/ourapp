@@ -10,10 +10,11 @@ const PopupHtml = () => {
         style={{ backgroundImage: `url(${img})` }}
       ></div>
       <div className={styles.description}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, unde.
-        Omnis possimus quisquam nulla impedit. Fugit, ea provident quisquam
-        repudiandae sapiente dolorum sequi excepturi at itaque quia vel eveniet
-        sed.
+        HTML pozwala opisać strukturę informacji zawartych wewnątrz strony
+        internetowej, nadając odpowiednie znaczenie semantyczne poszczególnym
+        fragmentom tekstu. JavaScript – skryptowy język programowania, stworzony
+        przez firmę Netscape, najczęściej stosowany na stronach internetowych.
+        CSS - język służący do opisu formy prezentacji (wyświetlania) stron WWW.
       </div>
     </div>
   );

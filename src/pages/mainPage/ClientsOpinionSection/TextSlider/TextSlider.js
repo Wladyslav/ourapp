@@ -3,14 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./TextSlider.module.scss";
-import {
-  AiOutlineLaptop,
-  AiOutlineShopping,
-  AiOutlineGlobal,
-} from "react-icons/ai";
-import LaptopPNG from '../../../../assets/svgs/laptop.png';
-import WebPNG from '../../../../assets/svgs/web.png';
-import BasketPNG from '../../../../assets/svgs/basket.png';
+
+import LaptopPNG from "../../../../assets/svgs/laptop.png";
+import WebPNG from "../../../../assets/svgs/web.png";
+import BasketPNG from "../../../../assets/svgs/basket.png";
 
 class SimpleSlider extends React.Component {
   render() {
@@ -25,7 +21,11 @@ class SimpleSlider extends React.Component {
       <Slider {...settings} autoplay="true" className={styles.slider_container}>
         <article className={styles.slider_item}>
           <div className={styles.icon}>
-          <img style={{height: "170px", width: "170px"}}src={BasketPNG} alt=""/>
+            <img
+              style={{ height: "170px", width: "170px" }}
+              src={BasketPNG}
+              alt=""
+            />
           </div>
           <h3
             className={styles.text}
@@ -45,7 +45,11 @@ class SimpleSlider extends React.Component {
         </article>
         <article className={styles.slider_item}>
           <div className={styles.icon}>
-          <img style={{height: "170px", width: "170px"}}src={LaptopPNG} alt=""/>
+            <img
+              style={{ height: "170px", width: "170px" }}
+              src={LaptopPNG}
+              alt=""
+            />
           </div>
           <h3
             style={{
@@ -65,7 +69,11 @@ class SimpleSlider extends React.Component {
         </article>
         <article className={styles.slider_item}>
           <div className={styles.icon}>
-          <img style={{height: "170px", width: "170px"}}src={WebPNG} alt=""/>
+            <img
+              style={{ height: "170px", width: "170px" }}
+              src={WebPNG}
+              alt=""
+            />
           </div>
           <h3
             style={{
