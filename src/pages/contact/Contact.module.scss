@@ -3,22 +3,6 @@
   flex-wrap: wrap;
   min-height: calc(100vh - 70px);
   justify-content: center;
-
-  .title_section {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 140px 0 60px 0;
-    background: #f7f7f7;
-    .page_title {
-      border: black 5px solid;
-      text-transform: uppercase;
-      font-weight: 700;
-      padding: 38px 50px;
-      line-height: 1.1;
-    }
-  }
-
   .map_container {
     display: flex;
     justify-content: center;

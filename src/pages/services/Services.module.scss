@@ -1,0 +1,11 @@
+.services_container {
+  min-height: 100vh;
+
+  .services_title_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 140px 0 60px 0;
+    background: #f7f7f7;
+  }
+}

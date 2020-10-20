@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import SubpageHeader from "../../smallComponents/SubpageHeader/SubpageHeader";
 import styles from "./Contact.module.scss";
 import FormSection from "./Form/FormSection";
 
@@ -8,10 +9,8 @@ class Contact extends Component {
   }
   render() {
     return (
-      <div className={styles.contact_container}>
-      <section className={styles.title_section}>
-        <h1 className={styles.page_title}>Kontakt</h1>
-      </section>
+      <section className={styles.contact_container}>
+     <SubpageHeader>Kontakt</SubpageHeader>
   
       <FormSection />
   
@@ -27,7 +26,7 @@ class Contact extends Component {
           tabIndex="0"
         ></iframe>
       </section>
-    </div>
+    </section>
     )
   }
 

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import SubpageHeader from "../../smallComponents/SubpageHeader/SubpageHeader";
+import styles from './Services.module.scss';
 
 class Services extends Component {
   componentDidMount() {
@@ -8,7 +9,9 @@ class Services extends Component {
   render() {
     return (
       <>
-        <div>Services</div>
+        <section className={styles.services_container}>
+           <SubpageHeader>Usługi</SubpageHeader>
+        </section>
       </>
     );
   }
