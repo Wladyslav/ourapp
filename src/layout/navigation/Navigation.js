@@ -18,6 +18,15 @@ const Navigation = () => (
       <NavLink
         activeClassName={styles.itemLinkActive}
         className={styles.itemLink}
+        to="/services"
+      >
+        Usługi
+      </NavLink>
+    </li>
+    <li className={styles.navItem}>
+      <NavLink
+        activeClassName={styles.itemLinkActive}
+        className={styles.itemLink}
         to="/contact"
       >
         Kontakt

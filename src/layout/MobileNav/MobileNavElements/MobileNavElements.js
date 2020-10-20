@@ -23,6 +23,15 @@ const MobileNavElements = ({ isOpen }) => {
         <NavLink
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
+          to="/services"
+        >
+          Usługi
+        </NavLink>
+      </li>
+      <li className={styles.navItem} style={{ opacity: isOpen ? "1" : "0" }}>
+        <NavLink
+          activeClassName={styles.itemLinkActive}
+          className={styles.itemLink}
           to="/contact"
         >
           Kontakt

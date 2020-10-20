@@ -5,6 +5,7 @@ import Header from "./layout/header/Header";
 import MainPage from "./pages/mainPage/MainPage";
 import Contact from "./pages/contact/Contact";
 import Footer from "./layout/Footer/Footer";
+import Services from "./pages/services/Services";
 
 class App extends Component {
   state = {};
@@ -22,6 +23,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path="/" component={MainPage} />
+          <Route exact path="/services" component={Services} />
 
           <Route path="/contact" component={Contact} />
         </Switch>
