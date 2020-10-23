@@ -8,10 +8,23 @@
   align-items: center;
   flex-wrap: wrap;
   .offer_item {
-    min-width: 300px;
-    height: 150px;
-    background-color: gray;
+    width: 360px;
+    min-height: 150px;
+    // background-color: gray;
     margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    h3 {
+      font-size: 15px;
+      letter-spacing: 1.2px;
+      margin-left: 10px;
+    }
+    p {
+      font-size: 15px;
+      color: #7a7a7a;
+      margin-left: 10px;
+    }
   }
 }
 
@@ -19,7 +32,7 @@
   .offerElements_container {
     padding: 0 240px;
     .offer_item {
-      margin: 15px;
+      margin: 20px;
     }
   }
 }
