@@ -42,8 +42,10 @@ const OfferElements = () => {
         <div className={styles.offerElements_container}>
         
     {offer_items.map((item) => (
-        <div className={styles.offer_item}>
-            <i class={item.font} style={{color: "#7A7A7A", fontSize: "32px"}}></i>
+        <div className={styles.offer_item} key={item.title}>
+            <div style={{width: "155px", height: "70px", padding: "10px", display: "flex", justifyContent: "center"}}>
+            <i className={item.font} style={{color: "#7A7A7A", fontSize: "32px"}}></i>
+            </div>
             <div className={styles.description}>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>

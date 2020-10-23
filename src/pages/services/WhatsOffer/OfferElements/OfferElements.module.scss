@@ -4,7 +4,7 @@
 
   display: flex;
   justify-content: center;
-
+  padding: 50px 20px;
   align-items: center;
   flex-wrap: wrap;
   .offer_item {
@@ -18,12 +18,12 @@
     h3 {
       font-size: 15px;
       letter-spacing: 1.2px;
-      margin-left: 10px;
+      //   margin-left: 10px;
     }
     p {
       font-size: 15px;
       color: #7a7a7a;
-      margin-left: 10px;
+      //   margin-left: 10px;
     }
   }
 }
