@@ -1,0 +1,41 @@
+.process_section {
+  min-height: 45vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/imgs/process.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: fixed;
+
+  .title {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    margin: 30px 10px;
+
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #e8e8e8;
+  }
+  .title::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: calc(50% - 24px);
+    width: 48px;
+    height: 3px;
+
+    background-color: #e8e8e8;
+  }
+}
+@media (min-width: 870px) {
+  .process_section {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
