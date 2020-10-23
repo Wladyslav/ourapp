@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./MobileNavElements.module.scss";
 import { NavLink } from "react-router-dom";
-const MobileNavElements = ({ isOpen }) => {
+const MobileNavElements = ({ isOpen, toggleNav}) => {
   return (
     <ul
       className={styles.mobileNavElements}
@@ -15,6 +15,7 @@ const MobileNavElements = ({ isOpen }) => {
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
           to="/"
+          onClick={toggleNav}
         >
           Strona główna
         </NavLink>
@@ -24,6 +25,7 @@ const MobileNavElements = ({ isOpen }) => {
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
           to="/services"
+          onClick={toggleNav}
         >
           Usługi
         </NavLink>
@@ -33,6 +35,8 @@ const MobileNavElements = ({ isOpen }) => {
           activeClassName={styles.itemLinkActive}
           className={styles.itemLink}
           to="/contact"
+          onClick={toggleNav}
+          
         >
           Kontakt
         </NavLink>

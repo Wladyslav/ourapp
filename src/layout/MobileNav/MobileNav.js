@@ -16,7 +16,7 @@ class MobileNav extends Component {
     return (
       <div>
         <Burger isOpen={this.state.isOpen} toggleNav={this.toggleNav} />
-        <MobileNavElements isOpen={this.state.isOpen} />
+        <MobileNavElements isOpen={this.state.isOpen} toggleNav={this.toggleNav}/>
       </div>
     );
   }
