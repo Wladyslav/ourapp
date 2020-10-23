@@ -11,6 +11,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-position: fixed;
+  overflow-x: hidden;
 
   .title {
     width: 100vw;
@@ -37,5 +38,8 @@
   .process_section {
     flex-direction: row;
     align-items: stretch;
+    .title {
+      font-size: 24px;
+    }
   }
 }
