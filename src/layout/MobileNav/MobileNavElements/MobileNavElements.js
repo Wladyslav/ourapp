@@ -16,6 +16,7 @@ const MobileNavElements = ({ isOpen, toggleNav}) => {
           className={styles.itemLink}
           to="/"
           onClick={toggleNav}
+
         >
           Strona główna
         </NavLink>
@@ -27,7 +28,7 @@ const MobileNavElements = ({ isOpen, toggleNav}) => {
           to="/services"
           onClick={toggleNav}
         >
-          Usługi
+          Uslugi
         </NavLink>
       </li>
       <li className={styles.navItem} style={{ opacity: isOpen ? "1" : "0" }}>
