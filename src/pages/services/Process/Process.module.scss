@@ -1,8 +1,8 @@
 .process_section {
-  min-height: 45vh;
+  min-height: 50vh;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   background-image: url("../../../assets/imgs/process.jpg");
   background-size: cover;
   justify-content: center;
@@ -11,12 +11,13 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-position: fixed;
+  overflow-x: hidden;
 
   .title {
     width: 100vw;
     position: relative;
     text-align: center;
-    margin: 30px 10px;
+    margin: 100px 10px;
 
     font-size: 20px;
     letter-spacing: 1.2px;
@@ -37,5 +38,8 @@
   .process_section {
     flex-direction: row;
     align-items: stretch;
+    .title {
+      font-size: 24px;
+    }
   }
 }

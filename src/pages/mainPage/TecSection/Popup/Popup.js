@@ -43,7 +43,6 @@ const Popup = ({ isPopupOpen, handlePopupClose, currentID }) => {
           <AiFillCloseSquare />
         </div>
         {renderSwitch(currentID)}
-        {console.log(currentID)}
       </div>
     </div>
   );
