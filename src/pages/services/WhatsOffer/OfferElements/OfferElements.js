@@ -6,32 +6,32 @@ const offer_items = [
     {
         font: "fas fa-cogs",
         title: "IOS / ANDROID DEVELOPMENT",
-        description: "Having a website is not enough anymore - now it is expected to also have native applications on iOS and Android."
+        description: "Posiadanie strony internetowej już nie jest wystarczające - oczekuje się, że będą to również natywne aplikacje na iOS i Androida."
     },
     {
         font: "fas fa-terminal",
         title: "WEB DEVELOPEMENT",
-        description: "Using the latest in web technologies, all websites are custom built and scalable which allows it to grow and increase in functionality."
+        description: "Korzystając z najnowszych technologii internetowych, wszystkie strony internetowe są tworzone na zamówienie i skalowalne, co pozwala na ich rozwój i zwiększanie funkcjonalności."
     },
     {
         font: "fas fa-eye",
         title: "SEO",
-        description: "Ensuring your website is easily found, this is started during the development process, and continued after the website is launched."
+        description: "Aby witryna klienta była łatwa do znalezienia, piszemy kod w sposób który sprzyja pozycjonowaniu w Google."
     },
     {
         font: "fas fa-mobile",
         title: "RESPONSIVE DESIGN",
-        description: "In this new era of smartphones and tablets, it has never been more important to have your website or application function perfectly on all screen sizes."
+        description: "W aktualniej erze smartfonów i tabletów nigdy nie było ważniejsze, aby Twoja witryna lub aplikacja działały idealnie na wszystkich rozmiarach ekranu."
     },
     {
         font: "fas fa-object-ungroup",
         title: "UX DESIGN",
-        description: "Enabling websites to become useful, easy to use, and delightful to interact with. The user experience will make or break your product."
+        description: "Projektowanie wyglądu strony w taki sposób, aby była intuicyjna oraz prosta w obsłudze dla uzytkowników."
     },
     {
         font: "fas fa-database",
         title: "DATABASE ARCHITECTURE",
-        description: "Having a database attached will allow websites and applications to become data-driven. Displaying and manipulating information in unlimited ways."
+        description: "Podłączenie bazy danych umożliwi witrynom i aplikacjom zapisywanie potrzebnych informacji oraz pozwoli na dobrowolną edycje ich."
     },
 ]
 
