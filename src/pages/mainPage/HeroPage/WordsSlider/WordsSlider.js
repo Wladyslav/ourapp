@@ -4,16 +4,16 @@ import styles from "./WordsSlider.module.scss";
 
 const textContent = [
   {
-    mainTitle: "UX DESIGN",
+    mainTitle: "RESPONSYWNOŚĆ",
   },
   {
     mainTitle: "NOWOCZESNE TECHNOLOGIE",
   },
   {
-    mainTitle: "WORDPRESS EXPERT",
+    mainTitle: "MOŻLIWOŚĆ ZARZĄDZANIA TREŚCIĄ",
   },
   {
-    mainTitle: "IOS & ANDROID APPS",
+    mainTitle: "APLIKACJE INTERNETOWE",
   },
 ];
 
@@ -64,7 +64,7 @@ class WordsSlider extends Component {
             {textContent[this.state.currentTextId].mainTitle}
           </h1>
           <h3 className={styles.subTitle}>
-            Freelance Web & App Developer based in Brighton, UK
+            Tworzenie stron internetowych w dostępnej cenie
           </h3>
         </div>
         <div style={{ marginTop: "30px" }}>

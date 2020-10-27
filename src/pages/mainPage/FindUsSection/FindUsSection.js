@@ -6,10 +6,20 @@ const FindUsSection = () => {
   return (
     <section className={styles.findUs_section}>
       <Fade bottom>
-        <h2 className={styles.main_text}>INTERESTED? FIND OUT MORE</h2>
+        <h2 className={styles.main_text}>ZAINTERESOWANY? DOWIEDZ SIĘ WIĘCEJ</h2>
         <div className={styles.buttonsWrapper}>
-          <Button>SERVICES</Button>
-          <Button secondary>CONTACT</Button>
+          <Button
+            children={"usługi"}
+            secondary={false}
+            path={"/services"}
+            router
+          ></Button>
+          <Button
+            children={"kontakt"}
+            secondary={true}
+            path={"/contact"}
+            router
+          ></Button>
         </div>
       </Fade>
     </section>

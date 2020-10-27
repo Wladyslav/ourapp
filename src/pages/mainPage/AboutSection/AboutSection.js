@@ -5,21 +5,21 @@ import styles from "./AboutSection.module.scss";
 const items_array = [
   {
     icon: "fas fa-code",
-    main_text: "MODULAR CODE",
+    main_text: "MODUŁOWY KOD ",
     sub_text:
-      "Projects are built using clean reusable code, which means projects can be scaled as the business grows.",
+      "Projekty są budowane przy użyciu czystego kodu wielokrotnego użytku, co pozwala na łatwą rozbudowę stron. ",
   },
   {
     icon: "fas fa-desktop",
     main_text: "USER EXPERIENCE",
     sub_text:
-      "Highly polished UX/UI Design to result in a smooth interface and easy navigation, ensuring repeat visits.",
+      "Wysoce dopracowany projekt UX / UI, który zapewnia płynny interfejs i łatwą nawigację.",
   },
   {
     icon: "fas fa-database",
-    main_text: "DATA-DRIVEN",
+    main_text: "ZARZĄDZANIE TREŚCIĄ",
     sub_text:
-      "Allow your website or app to become fully dynamic and data-driven, which opens up unlimited possibilities.",
+      "Możliwość zarządania treścią stron przy pomocy systemów CMS, co umożliwia łatwe prowadzenie i aktualizacje serwisu WWW",
   },
 ];
 
@@ -51,7 +51,7 @@ class AboutSection extends Component {
 
             <div className={styles.title}>
               <p>WEB & APP</p>
-              <p>DEVELOPMENT FEATURES</p>
+              <p>CECHY DEVELOPMENTU</p>
             </div>
             <div className={styles.icon_text_container}>
               {items_array.map((item) => (

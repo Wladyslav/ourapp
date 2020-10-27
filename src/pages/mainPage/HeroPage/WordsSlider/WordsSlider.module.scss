@@ -7,13 +7,14 @@
 }
 
 .mainTitle {
-  font-size: 42px;
+  font-size: 30px;
+  min-height: 110px;
   transition: 1s linear opacity;
   opacity: 0;
   padding: 0 10px;
 }
 .mainTitle.animated {
-  font-size: 42px;
+  font-size: 30px;
   opacity: 1;
   //   transition: 1s linear opacity;
 }
@@ -28,6 +29,7 @@
     display: block;
   }
   .mainTitle {
+    min-height: 180px;
     font-size: 70px;
   }
   .mainTitle.animated {
