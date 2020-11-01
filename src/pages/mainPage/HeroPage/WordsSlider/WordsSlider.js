@@ -64,7 +64,7 @@ class WordsSlider extends Component {
             {textContent[this.state.currentTextId].mainTitle}
           </h1>
           <h3 className={styles.subTitle}>
-            Tworzenie stron internetowych w dostępnej cenie
+            Tworzenie stron internetowych w przystępnej cenie
           </h3>
         </div>
         <div style={{ marginTop: "30px" }}>

@@ -7,7 +7,7 @@ const FormSection = () => (
     <div className={styles.contact_items_container}>
       <div className={styles.contact_item}>
         <div className={styles.contact_item_icon}>
-          <i class="fas fa-map-marker-alt"></i>
+          <i className="fas fa-map-marker-alt"></i>
         </div>
         <div className="item_description">
           <h3>Adres:</h3>
