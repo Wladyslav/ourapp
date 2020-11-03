@@ -3,7 +3,7 @@ import styles from "./Button.module.scss";
 import { Link as Scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 
-const Button = ({ children, secondary, section, router, path }) => {
+const Button = ({ children, secondary, section, router, path, border }) => {
   return (
     <>
   {router ?  <NavLink
@@ -23,6 +23,7 @@ const Button = ({ children, secondary, section, router, path }) => {
           className={
             secondary ? `${styles.mainBtn} ${styles.secondary}` : styles.mainBtn
           }
+          style={{border: border}}
         >
           {children}
         </button>
@@ -44,6 +45,7 @@ const Button = ({ children, secondary, section, router, path }) => {
           className={
             secondary ? `${styles.mainBtn} ${styles.secondary}` : styles.mainBtn
           }
+          style={{border: border}}
         >
           {children}
         </button>
