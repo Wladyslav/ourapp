@@ -36,16 +36,15 @@ class AboutSection extends Component {
                     color: "#666",
                   }}
                 >
-                  W
+                  S
                 </span>
-                <span style={{ color: "#bda67d" }}>S</span>
+                <span style={{ color: "#bda67d" }}>W</span>
               </p>
               <p className={styles.description}>
-                Freelance Web & App Developer in Brighton with expertise in both
-                front and back end development, along with solid UI/UX Design
-                skills. Offering a wide range of web and app development
-                services, such as bespoke WordPress sites, eCommerce platforms,
-                iOS and Android apps, and powerful .NET sites...
+                Oferujemy wysokiej jakości strony oraz aplikacje internetowe na
+                zamówienie. Dobieramy najlepsze rozwiązania dla klienta.
+                Zapewniamy wsparcie programistyczne przez pierwszy rok oraz
+                szkolenie, niezbędne do prowadzenia strony.
               </p>
             </div>
 

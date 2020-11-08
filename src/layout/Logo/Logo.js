@@ -10,7 +10,7 @@ const Logo = () => {
       }}
     >
       <span style={{ color: "#fff", cursor: "pointer" }}>
-        W<span style={{ color: "#909090" }}>S</span>
+        S<span style={{ color: "#909090" }}>W</span>
       </span>
     </small>
   );
