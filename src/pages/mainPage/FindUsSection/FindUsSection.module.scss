@@ -1,7 +1,7 @@
 .findUs_section {
   min-height: 60vh;
   background-color: gray;
-  background-image: url("../../../assets/imgs/findUs.jpg");
+  background-image: url("../../../assets/imgs/FindUs/1280x853.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -12,12 +12,6 @@
 
   background-repeat: no-repeat;
 }
-@media (min-width: 768px) {
-  .findUs_section {
-    background-attachment: fixed;
-  }
-}
-
 .main_text {
   color: white;
   margin-bottom: 25px;
@@ -26,4 +20,16 @@
   line-height: 1.5;
   text-align: center;
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .findUs_section {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 1280px) {
+  .findUs_section {
+    background-image: url("../../../assets/imgs/FindUs/1920x1296.jpg");
+  }
 }

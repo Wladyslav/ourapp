@@ -1,7 +1,10 @@
 .whatsOffer_section {
   min-height: 70vh;
   padding: 100px 0;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   h2 {
     position: relative;
     padding-bottom: 40px;
