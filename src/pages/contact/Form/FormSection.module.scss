@@ -23,6 +23,12 @@
         font-weight: 400;
         line-height: 25px;
       }
+      a {
+        color: #7a7a7a;
+        font-weight: 400;
+        line-height: 25px;
+        text-decoration: none;
+      }
       .contact_item_icon {
         width: 60px;
         height: 60px;
@@ -57,6 +63,7 @@
   .contact_form {
     padding: 25px 0;
     .contact_items_container {
+      width: 98%;
       flex-direction: column;
       .contact_item {
         margin: 10px;

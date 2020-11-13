@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Logo.module.scss";
 import { animateScroll as scroll } from "react-scroll";
+
 const Logo = () => {
   return (
     <small

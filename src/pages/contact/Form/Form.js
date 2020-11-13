@@ -22,10 +22,10 @@ class Form extends Component {
     this.setState({ loader: true });
     emailjs
       .sendForm(
-        "238967",
-        "template_mi5vt4p",
+        "SW-gmail",
+        "template_pos9036",
         e.target,
-        "user_rdQ5eBrRjxOahTixFnpq0"
+        "user_j8CCjLtpRu9pLsVRrz4Up"
       )
       .then(
         (result) => {

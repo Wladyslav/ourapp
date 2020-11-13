@@ -20,7 +20,7 @@ const FormSection = () => (
         </div>
         <div className="item_description">
           <h3>Numer telefonu:</h3>
-          <p>777</p>
+          <p>793-086-672, 792-351-155</p>
         </div>
       </div>
       <div className={styles.contact_item}>
@@ -29,7 +29,9 @@ const FormSection = () => (
         </div>
         <div className="item_description">
           <h3>Email:</h3>
-          <p>twojamatka@kurwa.com</p>
+          <a href="mailto:sw.webdev.pl@gmail.com" title="Email">
+            sw.webdev.pl@gmail.com
+          </a>
         </div>
       </div>
     </div>
