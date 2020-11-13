@@ -1,9 +1,9 @@
 .steps {
   display: flex;
-  width: 170px;
+  width: 220px;
   flex-direction: column;
   align-items: center;
-  margin: 30px 0 0 0;
+
   .img {
     height: 150px;
     width: 150px;
@@ -16,16 +16,17 @@
 
   .description {
     margin-top: 10px;
-    max-width: 180px;
+    // max-width: 180px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
+    display: flex;
   }
 }
 @media (min-width: 960px) {
   .steps {
-    margin: 7px;
+    margin: 30px;
   }
 }
 @media (min-width: 1380px) {

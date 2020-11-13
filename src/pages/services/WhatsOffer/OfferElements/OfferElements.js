@@ -43,26 +43,6 @@ const OfferElements = () => {
         
     {offer_items.map((item) => (
         <div className={styles.offer_item} key={item.title}>
-<<<<<<< HEAD
-          <div
-            style={{
-              width: "155px",
-              height: "70px",
-              padding: "10px",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <i
-              className={item.font}
-              style={{ color: "#7A7A7A", fontSize: "32px", width: "50px" }}
-            ></i>
-          </div>
-          <div className={styles.description}>
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-          </div>
-=======
             <div style={{width: "155px", height: "70px", padding: "10px", display: "flex", justifyContent: "center"}}>
             <i className={item.font} style={{color: "#7A7A7A", fontSize: "32px", width: "50px"}}></i>
             </div>
@@ -73,7 +53,6 @@ const OfferElements = () => {
         </div>
     )) }
 
->>>>>>> b4da667134930f48e907582d1d2e4bc09a0f8938
         </div>
     )
 }

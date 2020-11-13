@@ -19,10 +19,13 @@ const Process = () => {
   return (
     <section className={styles.process_section}>
       <h2 className={styles.title}>PROCES REALIZACJI</h2>
-
+      <div className={styles.steps_container}>
       {process_items.map((item) => (
-        <Steps key={item.id} icon={item.icon} text={item.text} />
+        <Steps number={item.id} key={item.id} icon={item.icon} text={item.text} />
       ))}
+      </div>
+      
+      
     </section>
   );
 };
