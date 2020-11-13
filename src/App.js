@@ -7,7 +7,7 @@ import Contact from "./pages/contact/Contact";
 import Footer from "./layout/Footer/Footer";
 import Services from "./pages/services/Services";
 import NotFound from "./pages/NotFound/NotFound";
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 class App extends Component {
   state = {};
   componentDidMount() {
