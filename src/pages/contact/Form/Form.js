@@ -73,7 +73,7 @@ class Form extends Component {
             className={styles.textarea}
             name="message"
             id="message"
-            placeholder="Wiadmość*"
+            placeholder="Wiadomość*"
             required
           />
           <button

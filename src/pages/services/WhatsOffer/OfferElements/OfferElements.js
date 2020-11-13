@@ -56,7 +56,7 @@ const OfferElements = () => {
           >
             <i
               className={item.font}
-              style={{ color: "#7A7A7A", fontSize: "32px", minWidth: "40px" }}
+              style={{ color: "#7A7A7A", fontSize: "32px", width: "50px" }}
             ></i>
           </div>
           <div className={styles.description}>
