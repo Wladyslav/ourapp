@@ -24,7 +24,7 @@ class App extends Component {
       <CookieConsent
       location="bottom"
       buttonText="Akceptuje"
-      cookieName="myAwesomeCookieName2"
+      cookieName="AllCookiesAccepted"
       style={{ background: "black", opacity: "0.7", textAlign:"center" }}
       buttonStyle={{ color: "black", fontSize: "14px", backgroundColor: "#bfa67a", padding: "16px" }}
       expires={150}
