@@ -34,7 +34,7 @@ const Imgs = styled.div`
     border-radius: 50%;
     background-position: center center;
     background-size: 60%;
-    margin: 30px;
+    margin: 30px 15px 15px 15px;
     background-repeat: no-repeat;
     background-image: url(${props => props.icon});
     position: relative;
@@ -57,7 +57,6 @@ const Imgs = styled.div`
 `
 
 const Description = styled.div`
-    margin-top: 10px;
     text-align: center;
     justify-content: flex-start;
     color: white;
